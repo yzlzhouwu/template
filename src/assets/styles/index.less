@@ -1,0 +1,195 @@
+@import '~view-design/src/styles/index.less';
+
+// 下面是要覆盖的变量
+// btn
+@primary-color       : #009bf5;
+@btn-font-size       : 12px;
+@btn-font-size-large : 14px;
+@btn-padding-base    : 6px 15px;
+
+
+// base
+@font-family : "Helvetica Neue",
+Helvetica,
+"PingFang SC",
+"Hiragino Sans GB",
+"Microsoft YaHei",
+"微软雅黑",
+Arial;
+@font-size-base   : 14px;
+@font-size-small  : 12px;
+@line-height-base : 1.5;
+
+// Input
+@input-width-base  : 200px;
+@input-width-large : 300px;
+@input-width-small : 160px;
+
+// link
+@link-color : #009bf5;
+
+.theme-color {
+  color: @primary-color;
+}
+
+.img-box {
+  border: 1px solid @primary-color;
+}
+
+.ivu-menu-light.ivu-menu-vertical .menu-list>li>a.router-link-active,
+.card-btn a:hover,
+.card-btn span:hover,
+.option-item.btn.ivu-btn {
+  color: @primary-color  !important;
+}
+
+.ivu-menu-light.ivu-menu-vertical .menu-list>li>a.router-link-active::after,
+.iv-grid-cell:hover {
+  background: @primary-color;
+}
+
+.iv-grid-cell {
+  border    : 1px solid @primary-color;
+  background: @primary-color;
+}
+
+.menu-manage .menu-item:hover {
+  color : @primary-color;
+  border: 1px solid @primary-color;
+}
+
+.regist-team-scueess .ivu-tag {
+  background-color: rgba(0, 155, 245, .2);
+  border-color    : @primary-color;
+}
+
+.regist-team-scueess .ivu-tag span {
+  color: @primary-color;
+}
+.two-columns-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.left-group .ivu-menu-vertical .ivu-menu-item,
+.left-group .ivu-menu-vertical .ivu-menu-submenu-title {
+  padding: 12px 24px 12px 42px;
+}
+
+.left-group .ivu-menu-item {
+  font-size: 14px;
+}
+
+.left-group {
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  min-height: 480px;
+  height: calc(~"100vh - 230px");
+}
+
+.left-group-wrap {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.left-group::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #dcdee2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.left-group .ivu-tree{
+  height: calc(~"100% - 30px");
+  overflow-y: auto;
+}
+
+.left-title {
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  margin: 0 15px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.right-content {
+  display: inline-block;
+  padding-left: 20px;
+  width: calc(~"100% - 240px");
+}
+//排序列表
+.no-data{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.col-table-top {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background: #f0f3f5;
+  padding: 0 24px;
+  line-height: 40px;
+}
+.col-table-top span {
+  font-weight: bold;
+}
+.col-check,.col-index{
+  text-align: center;
+  width: 80px;
+}
+.col-name {
+  width: 30%;
+}
+.col-remark{
+  width: 40%;
+}
+.col-caozuo {
+  text-align: center;
+  width: 15%;
+}
+.col-caozuo span{
+  cursor: pointer;
+}
+.col-text {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 24px;
+  border-top: 1px solid #f0f3f5;
+}
+.col-paixuIcon:hover {
+  cursor: move;
+}
+.col-paixu{
+  width: 5%;
+  text-align: center;
+}
+.col-paixuIcon {
+  font-size: 16px;
+}
+.col-edit,.col-info {
+  color: #0ba0f3;
+}
+.col-delete {
+  color: rgb(206, 16, 16);
+}
+//学校类型
+.school-title strong {
+  display: inline-block;
+  margin-right: 50px;
+}
+.school-title {
+  padding: 20px;
+}

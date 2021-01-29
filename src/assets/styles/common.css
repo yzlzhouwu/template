@@ -1,0 +1,113 @@
+.whiteSpace {
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.text-info {
+  color: #008af1 !important;
+}
+
+.text-success {
+  color: #19be6b !important;
+}
+
+.text-warning {
+  color: #ff9900 !important;
+}
+
+.text-error {
+  color: #ed3f14 !important;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.iv-grid-wrap .iv-grid-cell:hover {
+  opacity: .8;
+}
+
+.iv-grid-wrap {
+  padding-right: 8px;
+}
+
+.iv-grid-cell {
+  height       : 30px;
+  line-height  : 28px;
+  padding      : 0 6px;
+  border-radius: 4px;
+  cursor       : pointer;
+}
+
+.iv-grid-cell>span {
+  display      : inline-block;
+  width        : 92px;
+  color        : #fff;
+  border-right : 1px solid #fff;
+  text-overflow: ellipsis;
+  white-space  : nowrap;
+  overflow     : hidden;
+}
+
+.iv-grid-cell>i {
+  position: relative;
+  top     : -11px;
+}
+
+.iv-header button {
+  margin-top: 5px;
+}
+
+.search-item {
+  display       : inline-block;
+  width         : 200px;
+  margin-top    : 5px;
+  vertical-align: middle;
+}
+
+/* 自定义表格样式 */
+.self-table {
+  width        : 100%;
+  border-right : 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.self-table tr th,
+.self-table tr td {
+  line-height: 30px;
+  text-align : center;
+  padding    : 5px;
+  border-left: 1px solid #ccc;
+  border-top : 1px solid #ccc;
+}
+
+.self-table tr .table-right {
+  text-align: right;
+}
+
+.self-table tr .table-left {
+  text-align: left;
+}
+
+.base-item {
+  position     : relative;
+  border       : 1px solid #dcdcdc;
+  padding      : 20px;
+  box-sizing   : border-box;
+  margin-bottom: 30px;
+  width        : 100%;
+}
+
+.item-title {
+  padding   : 10px;
+  position  : absolute;
+  top       : -22px;
+  font-size : 16px;
+  background: #fff;
+}
+
+.item-label {
+  color    : #999;
+  font-size: 14px;
+}
