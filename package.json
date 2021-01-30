@@ -1,7 +1,7 @@
 {
   "name": "zhijiao",
   "version": "1.0.0",
-  "description": "后台管理服务",
+  "description": "完整框架项目",
   "author": "zjy <3375388698@qq.con>",
   "private": true,
   "scripts": {
