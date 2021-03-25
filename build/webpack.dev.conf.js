@@ -31,13 +31,15 @@ module.exports = merge(baseWebpackConfig, {
       title: 'index.html',
       filename: 'index.html',
       template: './template/index.ejs',
-      inject: false
+      inject: false,
+      chunks: ['vendor', 'main']
     }),
     new HtmlWebpackPlugin({
       title: 'login.html',
       filename: 'login.html',
       template: './template/login.ejs',
-      inject: false
+      inject: false,
+      chunks: ['vendor', 'login']
     }),
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
